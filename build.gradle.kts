@@ -38,6 +38,11 @@ dependencies {
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktorVersion")
     testImplementation("io.ktor:ktor-client-content-negotiation-jvm:$ktorVersion")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5:2.0.0")
+
+    implementation("io.ktor:ktor-server-core:2.3.12")
+    implementation("io.ktor:ktor-server-netty:2.3.12")
+    implementation("io.pebbletemplates:pebble:3.2.2")
+    implementation("ch.qos.logback:logback-classic:1.5.6")
 }
 
 application {
